@@ -1,0 +1,872 @@
+{
+  "canvas": [
+    1176,
+    7873
+  ],
+  "layers": [
+    {
+      "name": "Layer 2",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        0,
+        1176,
+        7873
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        1176,
+        7873
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        0,
+        1176,
+        2278
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        1176,
+        2278
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        1966,
+        1176,
+        3510
+      ],
+      "offset": [
+        0,
+        1966
+      ],
+      "size": [
+        1176,
+        1544
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy 2",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        2997,
+        1176,
+        4541
+      ],
+      "offset": [
+        0,
+        2997
+      ],
+      "size": [
+        1176,
+        1544
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy 3",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        3875,
+        1176,
+        5419
+      ],
+      "offset": [
+        0,
+        3875
+      ],
+      "size": [
+        1176,
+        1544
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy 4",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        4758,
+        1176,
+        6302
+      ],
+      "offset": [
+        0,
+        4758
+      ],
+      "size": [
+        1176,
+        1544
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy 5",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        5618,
+        1176,
+        6475
+      ],
+      "offset": [
+        0,
+        5618
+      ],
+      "size": [
+        1176,
+        857
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy 6",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        6475,
+        1176,
+        7332
+      ],
+      "offset": [
+        0,
+        6475
+      ],
+      "size": [
+        1176,
+        857
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 1 copy 7",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        0,
+        7332,
+        1176,
+        7782
+      ],
+      "offset": [
+        0,
+        7332
+      ],
+      "size": [
+        1176,
+        450
+      ],
+      "children": []
+    },
+    {
+      "name": "Contact Details / 联系方式 :  WeChat ID: 531116577 CN / 中国 ： 159578",
+      "kind": "type",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        109,
+        7400,
+        551,
+        7701
+      ],
+      "offset": [
+        109,
+        7400
+      ],
+      "size": [
+        442,
+        301
+      ],
+      "children": [],
+      "text": "Contact Details / 联系方式 :\r\rWeChat ID: 531116577\rCN / 中国 ： 15957810843\rItaly / 意大利 ： +393498125125\rEmail / 电邮 : Stefanoqiu@126.com\r\r\r\r",
+      "styles": [
+        {
+          "Font": "4",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "2",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "16.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "2",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "64.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "0",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98824, 0.98717, 0.98436]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        }
+      ]
+    },
+    {
+      "name": "1242",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        65,
+        6532,
+        1108,
+        7277
+      ],
+      "offset": [
+        65,
+        6532
+      ],
+      "size": [
+        1043,
+        745
+      ],
+      "children": []
+    },
+    {
+      "name": "1247",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        66,
+        5681,
+        1109,
+        6418
+      ],
+      "offset": [
+        66,
+        5681
+      ],
+      "size": [
+        1043,
+        737
+      ],
+      "children": []
+    },
+    {
+      "name": "1248",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        66,
+        4820,
+        1109,
+        5557
+      ],
+      "offset": [
+        66,
+        4820
+      ],
+      "size": [
+        1043,
+        737
+      ],
+      "children": []
+    },
+    {
+      "name": "1257",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        66,
+        3945,
+        1109,
+        4682
+      ],
+      "offset": [
+        66,
+        3945
+      ],
+      "size": [
+        1043,
+        737
+      ],
+      "children": []
+    },
+    {
+      "name": "1250",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        66,
+        3070,
+        1109,
+        3807
+      ],
+      "offset": [
+        66,
+        3070
+      ],
+      "size": [
+        1043,
+        737
+      ],
+      "children": []
+    },
+    {
+      "name": "1252",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        66,
+        2192,
+        1109,
+        2929
+      ],
+      "offset": [
+        66,
+        2192
+      ],
+      "size": [
+        1043,
+        737
+      ],
+      "children": []
+    },
+    {
+      "name": "Busines Focus / 业务重点 :  Executive President – Association for P",
+      "kind": "type",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        104,
+        811,
+        958,
+        1841
+      ],
+      "offset": [
+        104,
+        811
+      ],
+      "size": [
+        854,
+        1030
+      ],
+      "children": [],
+      "text": "Busines Focus / 业务重点 :\r\rExecutive President – Association for Promoting Economic and \rCultural Exchanges between Italy and China\r意大利中国经济文化交流促进会 – 执行会长\r\rVice Chairman – Soong Ching Ling Foundation (China) — Italy\r意大利宋庆龄基金 – 副主席\r\rDeputy Regional Chair for Europe – Belt and Road Initiative for \rSustainable Development\r一带一路可持续发展倡议 – 欧洲区副主席\r\rEuropean Head – Belt and Road Qatar Group\u0003卡塔尔 – 一带一路集团欧洲区负责人\r\rGeneral Manager – Zhejiang Province, Belt and Road Qatar Group\r卡塔尔 – 一带一路集团浙江省总经理\r\rChief Representative for China – Jewellery Industry of Valenza (Italy)\r意大利瓦伦扎市（Valenza）珠宝产业 – 中国区首席代表\r",
+      "styles": [
+        {
+          "Font": "4",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "2",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "36.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "16.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "0",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.99608, 0.995, 0.99217]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98824, 0.98392, 0.97273]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98824, 0.98608, 0.98048]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.99608, 0.995, 0.99217]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98824, 0.98502, 0.97661]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98824, 0.98717, 0.98436]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "52.0"
+        }
+      ]
+    },
+    {
+      "name": "Selected client engagements and collaboration highlights /  精选客",
+      "kind": "type",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        104,
+        2051,
+        895,
+        2126
+      ],
+      "offset": [
+        104,
+        2051
+      ],
+      "size": [
+        791,
+        75
+      ],
+      "children": [],
+      "text": "Selected client engagements and collaboration highlights / \r精选客户合作项目及协作亮点 :\r",
+      "styles": [
+        {
+          "Font": "3",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "48.0"
+        },
+        {
+          "Font": "2",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "48.0"
+        },
+        {
+          "Font": "1",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "48.0"
+        },
+        {
+          "Font": "0",
+          "FontSize": "28.0",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98824, 0.98717, 0.98436]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "48.0"
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 1",
+      "kind": "shape",
+      "visible": false,
+      "opacity": 255,
+      "bbox": [
+        416,
+        89,
+        761,
+        435
+      ],
+      "offset": [
+        416,
+        89
+      ],
+      "size": [
+        345,
+        346
+      ],
+      "children": []
+    },
+    {
+      "name": "Stefano Qiu 邱 鑫",
+      "kind": "type",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        435,
+        529,
+        744,
+        647
+      ],
+      "offset": [
+        435,
+        529
+      ],
+      "size": [
+        309,
+        118
+      ],
+      "children": [],
+      "text": "Stefano Qiu\r邱 鑫",
+      "styles": [
+        {
+          "Font": "1",
+          "FontSize": "62.22223",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.91763, 0.79999, 0.49411]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "80.0"
+        },
+        {
+          "Font": "0",
+          "FontSize": "55.55556",
+          "FillColor": "{'Type': 1, 'Values': [1.0, 0.98431, 0.98216, 0.97659]}",
+          "FauxBold": "False",
+          "FauxItalic": "False",
+          "Tracking": "0",
+          "Leading": "80.0"
+        }
+      ]
+    },
+    {
+      "name": "Vector Smart Object",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        303,
+        139,
+        873,
+        484
+      ],
+      "offset": [
+        303,
+        139
+      ],
+      "size": [
+        570,
+        345
+      ],
+      "children": []
+    },
+    {
+      "name": "Layer 2 copy",
+      "kind": "pixel",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        433,
+        150,
+        742,
+        460
+      ],
+      "offset": [
+        433,
+        150
+      ],
+      "size": [
+        309,
+        310
+      ],
+      "children": []
+    },
+    {
+      "name": "1238",
+      "kind": "smartobject",
+      "visible": true,
+      "opacity": 255,
+      "bbox": [
+        398,
+        100,
+        808,
+        690
+      ],
+      "offset": [
+        398,
+        100
+      ],
+      "size": [
+        410,
+        590
+      ],
+      "children": []
+    }
+  ]
+}
