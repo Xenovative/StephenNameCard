@@ -4,7 +4,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-SITE_DOMAIN="card1.cyber-beast.tech"
+SITE_DOMAIN="namecard.cyber-beast.tech"
 TARGET_WEB_ROOT="${1:-/var/www/${SITE_DOMAIN}}"
 
 die() {

@@ -2,11 +2,11 @@
 set -euo pipefail
 
 # Fixes public DNS for Stefano namecard on Hestia VPS.
-# Domain: card1.cyber-beast.tech
+# Domain: namecard.cyber-beast.tech
 
 PARENT_DOMAIN="cyber-beast.tech"
-SITE_DOMAIN="card1.cyber-beast.tech"
-RECORD_NAME="card1"
+SITE_DOMAIN="namecard.cyber-beast.tech"
+RECORD_NAME="namecard"
 VPS_IPV4="${VPS_IPV4:-76.13.248.127}"
 HESTIA_BIN="/usr/local/hestia/bin"
 
