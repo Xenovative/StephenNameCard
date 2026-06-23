@@ -4,36 +4,84 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-TARGET_WEB_ROOT="${1:-/var/www/andylanding}"
+SITE_DOMAIN="card1.cyber-beast.tech"
+TARGET_WEB_ROOT="${1:-/var/www/${SITE_DOMAIN}}"
 
-if ! command -v rsync >/dev/null 2>&1; then
-  printf "Required command 'rsync' was not found. Install rsync first.\n" >&2
+die() {
+  printf '%s\n' "$1" >&2
   exit 1
+}
+
+ensure_command_exists() {
+  local command_name="$1"
+  local install_hint="$2"
+
+  if ! command -v "$command_name" >/dev/null 2>&1; then
+    printf "Required command '%s' was not found. %s\n" "$command_name" "$install_hint" >&2
+    exit 1
+  fi
+}
+
+run_as_needed() {
+  if [[ "$1" == "sudo" ]]; then
+    shift
+    sudo "$@"
+    return
+  fi
+
+  if [[ "$1" == "direct" ]]; then
+    shift
+    "$@"
+    return
+  fi
+
+  "$@"
+}
+
+ensure_command_exists rsync "Install rsync first."
+
+if [[ -z "$TARGET_WEB_ROOT" || "$TARGET_WEB_ROOT" == "/" ]]; then
+  die "Target web root must be a non-root path."
 fi
 
 if ! command -v sudo >/dev/null 2>&1; then
-  printf "Required command 'sudo' was not found. Run this as a user with sudo access.\n" >&2
-  exit 1
+  if [[ ! -w "$(dirname "$TARGET_WEB_ROOT")" ]]; then
+    die "sudo is required to create or update '$TARGET_WEB_ROOT'."
+  fi
+  privilege_mode="direct"
+else
+  if [[ -e "$TARGET_WEB_ROOT" && -w "$TARGET_WEB_ROOT" ]]; then
+    privilege_mode="direct"
+  else
+    privilege_mode="sudo"
+  fi
 fi
 
-printf 'Syncing site files from %s to %s\n' "$SCRIPT_DIR" "$TARGET_WEB_ROOT"
+printf 'Syncing Stefano Qiu Namecard for %s from %s to %s\n' "$SITE_DOMAIN" "$SCRIPT_DIR" "$TARGET_WEB_ROOT"
 
-sudo mkdir -p "$TARGET_WEB_ROOT"
+run_as_needed "$privilege_mode" mkdir -p "$TARGET_WEB_ROOT"
 
-sudo rsync -av --delete \
-  --exclude '.git' \
-  --exclude '.gitignore' \
-  --exclude '.dockerignore' \
-  --exclude 'Dockerfile' \
-  --exclude 'docker-compose.yml' \
-  --exclude 'docker-compose.direct.yml' \
-  --exclude 'deploy-direct.sh' \
-  --exclude 'deploy-direct.ps1' \
-  --exclude 'deploy-simple.sh' \
-  --exclude 'sync-site.sh' \
-  --exclude 'nginx.conf' \
-  --exclude 'nginx.generated.conf' \
-  --exclude 'certbot' \
-  "$SCRIPT_DIR/" "$TARGET_WEB_ROOT/"
+rsync_args=(
+  -av
+  --delete
+  --delete-excluded
+  --include='/index.html'
+  --include='/styles.css'
+  --include='/script.js'
+  --include='/stefano-qiu.vcf'
+  --include='/stefano-profile.png'
+  --include='/composite.png'
+  --include='/highlight-*.png'
+  --include='/layer_*.png'
+  --include='/gt-logo*.png'
+  --include='/goldenthrone-*.jpeg'
+  --include='/img/'
+  --include='/img/***'
+  --exclude='*'
+  "$SCRIPT_DIR/"
+  "$TARGET_WEB_ROOT/"
+)
 
-printf 'Sync complete. Live site root updated: %s\n' "$TARGET_WEB_ROOT"
+run_as_needed "$privilege_mode" rsync "${rsync_args[@]}"
+
+printf 'Sync complete. Live site root updated for %s: %s\n' "$SITE_DOMAIN" "$TARGET_WEB_ROOT"
