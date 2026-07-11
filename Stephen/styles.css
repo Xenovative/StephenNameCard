@@ -478,7 +478,8 @@ img {
   }
 
   .btn-save {
-    letter-spacing: 0.08em;
+    white-space: normal;
+    text-align: center;
   }
 }
 
