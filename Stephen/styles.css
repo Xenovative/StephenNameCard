@@ -160,32 +160,33 @@ img {
   hyphens: none;
 }
 
-.profile-vcf-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: clamp(10px, 1.4vw, 14px) clamp(18px, 2.4vw, 24px);
-  border: 1px solid rgba(234, 204, 126, 0.45);
-  border-radius: 999px;
-  background: rgba(234, 204, 126, 0.08);
-  color: var(--gold);
+.btn-save {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-top: clamp(20px, 3vw, 28px);
+  padding: 16px 24px;
+  background: linear-gradient(180deg, #ffd86a 0%, #ffcc4f 55%, #e8b030 100%);
+  color: #1a1200;
   font-size: clamp(14px, 1.8vw, 18px);
-  line-height: 1.3;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-decoration: none;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-  white-space: nowrap;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 18px rgba(255, 204, 79, 0.35);
 }
 
-.profile-vcf-button:hover {
-  background: rgba(234, 204, 126, 0.16);
-  border-color: var(--gold);
+.btn-save:hover {
   transform: translateY(-1px);
+  box-shadow: 0 6px 22px rgba(255, 204, 79, 0.48);
 }
 
-.profile-vcf-button i {
-  font-size: 1.05em;
+.btn-save:active {
+  transform: translateY(0);
 }
 
 /* ── Section titles — border instead of underline to avoid line overlap ── */
@@ -476,9 +477,8 @@ img {
     border-radius: 12px;
   }
 
-  .profile-vcf-button {
-    white-space: normal;
-    text-align: center;
+  .btn-save {
+    letter-spacing: 0.08em;
   }
 }
 
