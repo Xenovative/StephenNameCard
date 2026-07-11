@@ -1,31 +1,5 @@
 const revealElements = document.querySelectorAll('.reveal');
 
-// #region agent log
-(() => {
-  const btn = document.querySelector('.btn-save');
-  const btnStyle = btn ? window.getComputedStyle(btn) : null;
-  fetch('http://127.0.0.1:7501/ingest/13cfea48-8ef8-4597-8481-d17014fbf4be', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'X-Debug-Session-Id': '783f56' },
-    body: JSON.stringify({
-      sessionId: '783f56',
-      runId: 'pre-fix',
-      hypothesisId: 'H2',
-      location: 'Stephen/script.js:init',
-      message: 'Stefano save button runtime',
-      data: {
-        revealCount: revealElements.length,
-        btnTop: btn?.getBoundingClientRect()?.top ?? null,
-        btnBg: btnStyle?.backgroundImage ?? null,
-        btnOpacity: btnStyle?.opacity ?? null,
-        profileVisible: document.querySelector('.profile-card')?.classList.contains('is-visible') ?? true,
-      },
-      timestamp: Date.now(),
-    }),
-  }).catch(() => {});
-})();
-// #endregion
-
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
